@@ -1,0 +1,22 @@
+{
+    "runs": [
+        {
+            "tool": {
+                "driver": {
+                    "name": "check-spelling",
+                    "rules": [
+                        {
+                            "id": "unrecognized-spelling",
+                            "defaultConfiguration": {
+                                "level": "warning"
+                            },
+                            "properties": {
+                                "problem.severity": "warning"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}
